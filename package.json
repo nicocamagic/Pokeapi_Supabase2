@@ -2,8 +2,11 @@
   "name": "proyecto",
   "private": true,
   "version": "0.0.0",
+  "homepage":"https:/nicocamagic.github.io/Pokeapi_Supabase2"
   "type": "module",
   "scripts": {
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "start": "node main.js",
     "dev": "vite",
     "build": "vite build",
